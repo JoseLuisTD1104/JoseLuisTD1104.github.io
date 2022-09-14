@@ -467,6 +467,27 @@ de las habilidades del curriculum vitae */
 
 }
 
+.boton_git {
+
+    background-color: red;
+    color: white;
+    border: 2px solid;
+    border-radius: 50px;
+
+}
+
+.boton_git:hover {
+
+    background-color: brown;
+    color: white;
+    transition: color 0.5s, background 0.5s;
+
+}
+
+.boton_git:active {
+
+    box-shadow: inset 0px 0px 40px brown;
+}
 
 
 /* adaptacion moviles */
@@ -691,6 +712,7 @@ de las habilidades del curriculum vitae */
         text-align: justify;
         left: 57%;
         bottom: 1262px;
+        
     }
 
     .Habilidades {
@@ -806,6 +828,16 @@ de las habilidades del curriculum vitae */
         position: relative;
         left: 64%;
         bottom: 1240px;
+    }
+
+    .boton_git {
+
+        padding: 5px 20px;
+        font-size: 10px;
+
+        position: relative;
+        bottom: 1230px;
+        left: 24%;
     }
 
     
@@ -1167,6 +1199,17 @@ de las habilidades del curriculum vitae */
         
     }
 
+    .boton_git {
+
+        padding: 20px 150px;
+        font-size: 12px;
+
+        position: relative;
+        bottom: 6180px;
+        left: 35%;
+    }
+
+
 
 
     
@@ -1504,8 +1547,17 @@ de las habilidades del curriculum vitae */
         bottom: 10300px;
     }
 
+    .boton_git {
+
+        padding: 50px 400px;
+        font-size: 32px;
+
+        position: relative;
+        bottom: 10380px;
+        left: 21%;
+    }
+
+
 }
 
-/* NOTA: PARA LEER EN MODO PC 
-EL ZOOM DEL PC DEBE SER IGUAL A 33% DEL ZOOM 
-DEL NAVEGADOR */
+
