@@ -1,0 +1,1562 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/* fuente para  titulos */ 
+
+@font-face {
+
+    font-family: 'fuente_Principal';
+    src: url(fonts/KGRedHands.ttf);
+
+}
+
+/* fuente ocupada para subtitulos */
+
+@font-face {
+
+    font-family: 'fuente_secundaria';
+    src: url(fonts/RifficFree-Bold.ttf);
+
+}
+
+body {
+
+    background-color: azure;
+
+}
+
+/* imagen principal */
+
+.imagen {
+    
+    width: 50%;
+    height: 90%;
+
+}
+
+/* rectangulo negro abajo de la imagen*/
+
+.rectangulo-base {
+
+    width: 50%;
+    background-color: black;
+
+}
+
+/*rectangulo que va en el titulo es decir el nombre*/
+
+.rectangulo-titulo {
+
+    position: relative;
+    left: 55%;
+    width: 41%;
+    background-color: black;
+}
+
+/* nombre */
+
+h1{
+     
+    font-family: fuente_Principal;
+    color: white;
+    position: relative;
+   
+}
+
+/* Datos de contacto */
+
+h2 {
+
+    font-family: fuente_secundaria;
+    color: white;
+    position: relative;
+
+}
+
+/* icono de arroba */
+
+.arroba {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color: white;
+    position: relative;
+
+}
+
+/* correro electronico */ 
+
+.correo_electronico {
+
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    position: relative;
+
+}
+
+/* nombre del correro electronico */
+
+.nombre_mail {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+
+}
+
+/* segundo icono arroba */
+
+.arroba_2 {
+    
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color: white;
+    position: relative;
+
+}
+
+/* correro respaldo */
+
+.correo_respaldo {
+
+    font-family:'Times New Roman', Times, serif ;
+    color: white;
+    position: relative;
+}
+
+/*  nombre del correro electronico de respaldo */
+
+.mail_respaldo {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+
+}
+
+/* icono linkedin */
+
+.icon_linedin {
+     
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+
+}
+
+/* Linkedin */
+
+.Linkedin {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+
+}
+
+/* Dirección linkedin */
+
+.link_likedin {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+
+}
+
+/* icono de telefono */ 
+
+.icon-telefono {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+
+}
+
+/* Telefono */ 
+
+.telefono {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+
+}
+
+/* numero de telefono */
+
+.num-telf {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
+/* Gustos */
+
+.Gustos {
+
+    font-family: fuente_secundaria;
+    color: white;
+    position: relative;
+
+}
+
+/* icono de gusto a la programación */ 
+
+.icon_programming {
+    
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+    
+}
+
+/* icono de gusto a la natación */ 
+
+.icon_swimming {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+
+}
+
+/* icono de gusto a comunicar y expresar */
+
+.icon_comunicate {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+
+}
+
+/* Icono de gusto a viedo juegos */
+
+.icon_gamepad {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+    
+}
+
+/* icono del gusto a la estadistica */ 
+
+.icon_statistics {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+    
+}
+
+/* icono del gusto a la musica */ 
+
+.icon_music {
+
+    background: transparent;
+    border-radius: none;
+    border: none;
+    color:white;
+    position: relative;
+
+}
+
+/* Logros  */ 
+
+.Logros { 
+
+    font-family: fuente_secundaria;
+    color: white;
+    position: relative;
+
+}
+
+/* resumen */
+
+.Resumen {
+
+    font-family: fuente_Principal;
+    color: black;
+    position: relative;
+
+}
+
+/* contorno o rectangulo en el cual se la descripcion
+del curriculum vitae */ 
+
+.Rectagulo_descripcion {
+
+    position: relative;
+    left: 55%;
+    width: 42%;
+    background-color: black;
+
+}
+
+/* descripción del curriculum vitae */ 
+
+.description {
+
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    
+    
+}
+
+/* habilidades */ 
+
+.Habilidades {
+
+    font-family: fuente_Principal;
+    color: black;
+    position: relative;
+    
+}
+
+/* contorno o rectangulo en el cual se la descripcion 
+de las habilidades del curriculum vitae */ 
+
+.Rectagulo_Habilidades {
+
+    position: relative;
+    left: 55%;
+    width: 42%;
+    background-color: black;
+
+}
+
+/* descripcion de habilidades */ 
+
+.description_Habilidades {
+
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    
+
+}
+
+/* formación */
+
+.Formacion {
+
+    font-family: fuente_Principal;
+    color: black;
+    position: relative;
+
+}
+
+/* decoración */ 
+
+.Linea1 {
+
+    position: relative;
+    left: 55%;
+    width: 42%;
+    background-color: black;
+
+}
+
+/* preparatoria */ 
+
+.Preparatoria {
+
+    font-family: fuente_secundaria;
+    color: black;
+    position: relative; 
+
+
+}
+
+/* tipo de certificado */ 
+
+.certificado {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+
+}
+
+/* periodo cursado */ 
+
+.periodo {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+
+}
+
+/* decoración */ 
+
+.Linea2 {
+
+    position: relative;
+    left: 55%;
+    width: 42%;
+    background-color: black;
+
+}
+
+/* voluntariado */ 
+
+.Voluntariado {
+
+    font-family: fuente_Principal;
+    color: black;
+    position: relative;
+
+}
+
+/* donde fue el voluntariado */ 
+
+.Conjuvecyh {
+
+    font-family: fuente_secundaria;
+    color: black;
+    position: relative; 
+
+}
+
+/* periodo */ 
+
+.perido-voluntariado {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative; 
+
+}
+
+/* decoración */ 
+
+.Linea3 {
+    
+    position: relative;
+    left: 55%;
+    width: 42%;
+    background-color: black;
+
+}
+
+.boton_git {
+
+    background-color: red;
+    color: white;
+    border: 2px solid;
+    border-radius: 50px;
+
+}
+
+.boton_git:hover {
+
+    background-color: brown;
+    color: white;
+    transition: color 0.5s, background 0.5s;
+
+}
+
+.boton_git:active {
+
+    box-shadow: inset 0px 0px 40px brown;
+}
+
+
+/* adaptacion moviles */
+
+@media (max-width: 767px) {
+   
+
+    .rectangulo-base {
+
+        height: 700px;
+        
+    }
+
+    .rectangulo-titulo {
+
+        height: 40px;
+        bottom: 860px;
+        
+
+    }
+
+    h1{
+
+        font-size: 50%;
+        bottom: 886px;
+        left: 61%;
+        
+    }
+
+    h2 {
+
+        font-size: 50%;
+        bottom: 730px;
+        left: 15%;
+
+    }
+
+    .arroba {
+
+        bottom: 720px;
+        left: 2%;
+        font-size: 70%;
+
+    }
+
+    .correo_electronico{
+
+        font-size: 50%;
+        bottom: 740px;
+        left:6%;
+
+    }
+
+    .nombre_mail {
+
+        font-size: 15%;
+        bottom: 738px;
+        left: 5%;
+
+    }
+
+    
+    .arroba_2 {
+
+        font-size: 70%;
+        bottom: 730px;
+        left: 2%;
+
+    }
+
+    .correo_respaldo{
+
+        font-size: 50%;
+        bottom: 750px;
+        left: 6%;
+
+    }
+
+    .mail_respaldo {
+
+        font-size: 40%;
+        bottom: 767px;
+        left: 6%;
+    }
+
+
+    .icon_linedin {
+
+        font-size: 70%;
+        bottom: 760px;
+        left: 2%;
+    }
+
+    .Linkedin {
+
+        font-size: 50%;
+        bottom: 780px;
+        left: 6%;
+    }
+
+    .link_likedin {
+
+        font-size:20%;
+        bottom: 775px;
+        left: 5%;
+    }
+
+    .icon-telefono {
+
+        font-size: 70%;
+        bottom: 770px;
+        left: 2%;
+    }
+
+    .telefono {
+
+        font-size: 50%;
+        bottom: 790px;
+        left: 6%;   
+    }
+
+    .num-telf {
+
+        font-size:40%;
+        bottom: 786px;
+        left: 6%;
+    }
+
+    .Gustos {
+
+        font-size: 50%;
+        bottom:770px ;
+        left: 20%;
+
+    }
+
+    .icon_programming {
+
+        font-size: 250%;
+        bottom: 750px;
+        left: 3%;
+        
+    }
+
+    .icon_swimming {
+
+        font-size: 250%;
+        bottom: 750px;
+        left: 6%;
+    }
+
+    .icon_comunicate {
+
+        font-size: 250%;
+        bottom: 750px;
+        left: 10%;
+    }
+    
+    .icon_gamepad {
+
+        font-size: 250%;
+        bottom: 700px;
+        left: -138px;
+
+    }
+
+    .icon_statistics {
+
+        font-size: 250%;
+        bottom:  700px;
+        left: -127px;
+
+    }
+
+    .icon_music {
+
+        
+        font-size: 250%;
+        bottom:  700px;
+        left: -116px;
+
+    }
+
+    .Logros {
+
+        font-size: 50%;
+        bottom:665px ;
+        left: 14%;
+        
+    }
+
+    .codigo_qr {
+
+        position: relative;
+        width:20%;
+        bottom:650px;       
+        left: 13%;
+
+    }
+
+    .Resumen {
+
+        font-size: 50%;
+        bottom:1210px ;
+        left: 55%;
+        
+    }
+
+    .Rectagulo_descripcion {
+
+        height: 100px;
+        bottom: 1200px;
+        width: 60%;
+        height: 70px;
+        
+
+    }
+
+    .description {
+
+        font-size: 40%;
+        text-align: justify;
+        left: 57%;
+        bottom: 1262px;
+        
+    }
+
+    .Habilidades {
+
+        font-size: 50%;
+        bottom: 1240px;
+        left: 55%;
+    }
+
+    .Rectagulo_Habilidades {
+
+        height: 50px;
+        bottom: 1230px;
+        width: 36%;
+        
+    }
+
+    .description_Habilidades {
+
+        font-size: 40%;
+        left: 57%;
+        text-align: justify;
+        bottom: 1270px;
+
+    }
+
+    .Formacion {
+
+        font-size: 50%;
+        bottom: 1250px;
+        left: 55%;
+
+    }
+
+    .Linea1 {
+
+        height: 5px;
+        bottom: 1240px;
+        width: 60%;
+
+    }
+
+    .Preparatoria{
+
+        font-size: 50%;
+        bottom:1230px;
+        left: 55%;
+        
+    }
+
+    .certificado {
+
+        font-size: 50%;
+        bottom:1255px ;
+        left: 100%;
+
+    }
+
+    .periodo {
+
+        font-size: 50%;
+        bottom: 1250px;
+        left: 55%;
+    }
+
+    .Linea2 {
+
+        height: 5px;
+        bottom: 1240px;
+        width:60% ;
+
+    }
+
+    .Voluntariado {
+
+        font-size: 50%;
+        bottom: 1230px;
+        left: 55%;
+
+    }
+
+    .Conjuvecyh {
+
+        font-size: 50%;
+        bottom:1220px ;
+        left: 58%;
+
+    }
+
+    .perido-voluntariado {
+
+        font-size: 50%;
+        bottom: 1231px;
+        left: 73%;
+
+    }
+
+    .Linea3 {
+
+        
+        height: 5px;
+        bottom: 1220px;
+        width:60% ;
+
+
+    }
+
+    .estadisticas {
+
+        width: 42%;
+        height: 42%;
+
+        position: relative;
+        left: 64%;
+        bottom: 1240px;
+    }
+
+    .boton_git {
+
+        padding: 5px 20px;
+        font-size: 10px;
+
+        position: relative;
+        bottom: 1230px;
+        left: 24%;
+    }
+
+    
+
+
+
+}
+
+/* adaptacion tablets */ 
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+    .rectangulo-base {
+
+        height: 5000px;
+    }
+    
+    .rectangulo-titulo {
+
+        height: 100px;
+        bottom: 5300px;
+        width: 90%;
+
+    }
+
+    h1{
+
+      
+        font-size: 250%;
+        bottom: 5380px;
+        left: 62%;
+        
+    }
+
+    
+    h2 {
+
+        font-size: 200%;
+        bottom: 5120px;
+        left: 7%;
+
+    }
+
+    .arroba {
+
+        bottom: 5092px;
+        left: 2%;
+        font-size: 150%;
+
+    }
+
+    .correo_electronico{
+
+        font-size: 150%;
+        bottom: 5130px;
+        left:6%;
+
+    }
+
+    .nombre_mail {
+
+        font-size: 75%;
+        bottom: 5125px;
+        left: 6%;
+
+    }
+
+    .arroba_2 {
+
+        font-size: 150%;
+        bottom: 5100px;
+        left: 2%;
+
+    }
+
+    .correo_respaldo{
+
+        font-size: 150%;
+        bottom: 5140px;
+        left: 6%;
+
+    }
+
+    .mail_respaldo {
+
+        font-size: 120%;
+        bottom: 5155px;
+        left: 6% ;
+    }
+
+    .icon_linedin {
+
+        font-size: 150%;
+        bottom: 5130px;
+        left: 2%;
+    }
+
+    .Linkedin {
+
+        font-size: 120%;
+        bottom: 5165px;
+        left: 6%;
+    }
+
+    .link_likedin {
+
+        font-size: 75%;
+        bottom: 5165px;
+        left: 6%;
+    }
+
+    .icon-telefono {
+
+        font-size: 150%;
+        bottom: 5130px;
+        left: 2%;
+    }
+
+    .telefono {
+
+        font-size: 120%;
+        bottom: 5170px;
+        left: 6%;
+    }
+
+    .num-telf {
+
+        font-size:120%;
+        bottom: 5170px;
+        left: 6%;
+    }
+
+    .Gustos {
+
+        font-size: 150%;
+        bottom:5150px ;
+        left: 18%;
+
+    }
+
+    .icon_programming {
+
+        font-size: 500%;
+        bottom: 5100px;
+        left: 2%;
+        
+    }
+
+    .icon_swimming {
+
+        font-size: 500%;
+        bottom: 5100px;
+        left: 6%;
+    }
+
+    .icon_comunicate {
+
+        font-size: 500%;
+        bottom: 5100px;
+        left: 12%;
+    }
+
+    .icon_gamepad {
+
+        font-size: 500%;
+        bottom: 5000px;
+        left: -260px;
+
+    }
+
+    .icon_statistics {
+
+        font-size: 500%;
+        bottom: 5000px;
+        left: -240px;
+
+    }
+
+    .icon_music {
+
+        
+        font-size: 500%;
+        bottom: 5000px;
+        left: -200px;
+        
+
+    }
+
+    .Logros {
+
+        font-size: 150%;
+        bottom:4950px ;
+        left: 12%;
+        
+    }
+
+    .codigo_qr {
+
+        position: relative;
+        width:20% ;
+        bottom:4900px;       
+        left: 12%;
+
+    }
+
+    .Resumen {
+
+        font-size: 150%;
+        bottom:6000px ;
+        left: 55%;
+        
+    }
+
+    .Rectagulo_descripcion {
+
+        height: 300px;
+        width: 106%;
+        bottom: 5970px;
+
+    }
+
+    .description {
+
+        font-size: 150%;
+        left: 58%;
+        bottom: 6220px;
+    }
+
+    .Habilidades {
+
+        font-size: 150%;
+        bottom: 6140px;
+        left: 55%;
+    }
+
+    .Rectagulo_Habilidades {
+
+        height: 200px;
+        bottom: 6120px;
+        width: 60%;
+
+    }
+
+    .description_Habilidades {
+
+        font-size: 150%;
+        left: 57%;
+        bottom: 6280px;
+
+    }
+
+    .Formacion {
+
+        font-size: 150%;
+        bottom: 6190px;
+        left: 55%;
+
+    }
+
+    .Linea1 {
+
+        height: 10px;
+        bottom: 6170px;
+        width: 106%;
+
+    }
+
+    .Preparatoria{
+
+        font-size: 150%;
+        bottom:6158px ;
+        left: 55%;
+        
+    }
+
+    .certificado {
+
+        font-size: 150%;
+        bottom:6214px ;
+        left: 146%;
+
+    }
+
+    .periodo {
+
+        font-size: 150%;
+        bottom: 6210px;
+        left: 55%;
+    }
+
+    .Linea2 {
+
+        height: 10px;
+        bottom: 6190px;
+        width: 106%;
+
+    }
+
+
+    .Conjuvecyh {
+
+        font-size: 150%;
+        bottom:6150px ;
+        left: 58%;
+
+    }
+
+    .perido-voluntariado {
+
+        font-size: 400%;
+        bottom: 10235px;
+        left: 73%;
+
+    }
+
+    .Voluntariado {
+
+        font-size: 150%;
+        bottom: 6175px;
+        left: 55%;
+
+    }
+
+    .perido-voluntariado {
+
+        font-size: 120%;
+        bottom: 6175px;
+        left: 144%;
+
+    }
+
+    .Linea3 {
+
+        height: 10px;
+        bottom: 6150px;
+        width:106% ;
+
+    }
+
+    .estadisticas {
+
+        width: 42%;
+        height: 42%;
+
+        position: relative;
+        left: 82%;
+        bottom: 6200px;
+    }
+
+    .Botonn {
+
+        padding: 10px 30px;
+
+        position: relative;
+        bottom:6175px;
+        left: 54%;
+        z-index: 1;
+
+        
+    }
+
+    .boton_git {
+
+        padding: 20px 150px;
+        font-size: 12px;
+
+        position: relative;
+        bottom: 6180px;
+        left: 35%;
+    }
+
+
+
+
+    
+
+
+
+
+    
+}
+
+
+
+
+/* adaptación de pantallas de laptop o pc */
+
+@media (min-width: 1026px) { 
+
+    .rectangulo-base {
+
+        height: 5000px;
+    }
+    
+    .rectangulo-titulo {
+
+        height: 300px;
+        bottom: 6800px;
+
+    }
+
+    h1{
+
+        font-size: 500%;
+        bottom: 7000px;
+        left: 61%;
+        
+    }
+
+
+    h2 {
+
+        font-size: 700%;
+        bottom: 5310px;
+        left: 11%;
+
+    }
+
+    .arroba {
+
+        bottom: 5192px;
+        left: 2%;
+        font-size: 600%;
+
+    }
+
+    .correo_electronico{
+
+        font-size: 450%;
+        bottom: 5340px;
+        left:5%;
+
+    }
+
+    .nombre_mail {
+
+        font-size: 315%;
+        bottom: 5320px;
+        left: 5%;
+
+    }
+
+    .arroba_2 {
+
+        font-size: 600%;
+        bottom: 5200px;
+        left: 2%;
+
+    }
+
+    .correo_respaldo{
+
+        font-size: 450%;
+        bottom: 5350px;
+        left: 5%;
+
+    }
+
+    .mail_respaldo {
+
+        font-size: 400%;
+        bottom: 5335px;
+        left: 5% ;
+    }
+
+    .icon_linedin {
+
+        font-size: 900%;
+        bottom: 5220px;
+        left: 2%;
+    }
+
+    .Linkedin {
+
+        font-size: 450%;
+        bottom: 5390px;
+        left: 6%;
+    }
+
+    .link_likedin {
+
+        font-size: 320%;
+        bottom: 5370px;
+        left: 6%;
+    }
+    
+    .icon-telefono {
+
+        font-size: 900%;
+        bottom: 5250px;
+        left: 2%;
+    }
+
+    .telefono {
+
+        font-size: 450%;
+        bottom: 5440px;
+        left: 6%;
+    }
+
+    .num-telf {
+
+        font-size:400%;
+        bottom: 5405px;
+        left: 6%;
+    }
+
+    .Gustos {
+
+        font-size: 900%;
+        bottom:5250px ;
+        left: 15%;
+
+    }
+
+    .icon_programming {
+
+        font-size: 2100%;
+        bottom: 5100px;
+        left: 2%;
+        
+    }
+
+    .icon_swimming {
+
+        font-size: 2100%;
+        bottom: 5100px;
+        left: 9%;
+    }
+
+    .icon_comunicate {
+
+        font-size: 2100%;
+        bottom: 5100px;
+        left: 19%;
+    }
+    
+    .icon_gamepad {
+
+        font-size: 2100%;
+        bottom: 4600px;
+        left: -1060px;
+
+    }
+
+    .icon_statistics {
+
+        font-size: 2100%;
+        bottom: 4600px;
+        left: -700px;
+
+    }
+
+    .icon_music {
+
+        
+        font-size: 2100%;
+        bottom: 4600px;
+        left: -370px;
+        
+
+    }
+
+    .Logros {
+
+        font-size: 900%;
+        bottom:4365px ;
+        left: 8%;
+        
+    }
+
+    .codigo_qr {
+
+        position: relative;
+        width:20% ;
+        bottom:4150px;       
+        left: 11%;
+
+    }
+
+    .Resumen {
+
+        font-size: 900%;
+        bottom:9900px ;
+        left: 55%;
+        
+    }
+
+    .Rectagulo_descripcion {
+
+        height: 600px;
+        bottom: 9850px;
+
+    }
+
+    .description {
+
+        font-size: 300%;
+        left: 58%;
+        bottom: 10380px;
+    }
+
+    .Habilidades {
+
+        font-size: 800%;
+        bottom: 10100px;
+        left: 55%;
+    }
+
+    .Rectagulo_Habilidades {
+
+        height: 600px;
+        bottom: 10000px;
+    }
+
+    .description_Habilidades {
+
+        font-size: 600%;
+        left: 57%;
+        bottom: 10520px;
+
+    }
+
+    .Formacion {
+
+        font-size: 800%;
+        bottom: 10300px;
+        left: 55%;
+
+    }
+
+    .Linea1 {
+
+        height: 20px;
+        bottom: 10250px;
+
+    }
+
+    .Preparatoria{
+
+        font-size: 500%;
+        bottom:10158px ;
+        left: 55%;
+        
+    }
+
+    .certificado {
+
+        font-size: 550%;
+        bottom:10358px ;
+        left: 84%;
+
+    }
+
+    .periodo {
+
+        font-size: 300%;
+        bottom: 10350px;
+        left: 55%;
+    }
+
+    .Linea2 {
+
+        height: 20px;
+        bottom: 10240px;
+
+    }
+
+    .Voluntariado {
+
+        font-size: 800%;
+        bottom: 10200px;
+        left: 55%;
+
+    }
+
+    .Conjuvecyh {
+
+        font-size: 500%;
+        bottom:10150px ;
+        left: 58%;
+
+    }
+
+    .perido-voluntariado {
+
+        font-size: 400%;
+        bottom: 10235px;
+        left: 73%;
+
+    }
+
+    .Linea3 {
+
+        height: 20px;
+        bottom: 10100px;
+
+    }
+
+    .estadisticas {
+
+        width: 42%;
+        height: 42%;
+
+        position: relative;
+        left: 55%;
+        bottom: 10300px;
+    }
+
+    .boton_git {
+
+        padding: 50px 400px;
+        font-size: 32px;
+
+        position: relative;
+        bottom: 10380px;
+        left: 21%;
+    }
+
+
+}
+
