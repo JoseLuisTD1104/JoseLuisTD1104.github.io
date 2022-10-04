@@ -1,0 +1,696 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+@font-face {
+
+    font-family: 'fuente_Principal';
+    src: url(fonts/KGRedHands.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'fuente_secundaria';
+    src: url(fonts/RifficFree-Bold.ttf);
+
+}
+
+nav {
+
+    background:black;
+    height: 80px;
+    width: 100%;
+
+}
+
+.logo {
+
+    height: 78px;
+}
+
+nav ul {
+
+    float: right;
+    margin-right:20px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border: 0;
+
+}
+
+.box {
+
+    position: relative;
+    top: 50%;
+
+}
+
+input.src {
+
+    padding: 3px 34px;
+    font-family: sans-serif;
+    outline:  none;
+    font-size: 18px;
+    border-radius: 50px;
+    color: blue;
+    border: 3px solid blueviolet;
+    background: white url(/portafolio_de_evidencias/css/Imagenes/busqueda.png) no-repeat 6px center;
+    width: 130px;
+    transition: all .5s;
+
+    
+}
+
+input.src :hover {
+
+    width: 180px;
+    background-color: blue;
+    border-color: blue ;
+    box-shadow: 0 0 5px blue;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 20px;
+    -webkit-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+
+}
+
+nav ul li a {
+
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+
+li a.active, li a:hover {
+
+    background:blue ;
+
+}
+
+.checkbtn {
+
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+
+    display: none;
+
+}
+
+   
+
+.conteiner .text h1 {
+
+    font-family: fuente_Principal;
+    position: relative;
+    top: 50px;
+    
+
+}
+
+.conteiner .text .programa_1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 100px;
+    font-size: 70px;
+}
+
+/* celulares*/
+
+@media screen and (max-width: 737px) { 
+    
+    .checkbtn {
+
+        display: block;
+
+    }
+
+    ul {
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: blue;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+        
+    }
+
+    nav ul li {
+
+        display: block;
+        margin: 50px 150px;
+        line-height: 80px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 20px;
+
+    }
+
+   
+    #check:checked ~ul {
+
+        left:0;
+
+    }   
+
+
+    input.src {
+    
+    display: none;
+    
+    }
+
+    .conteiner .text h1 {
+    
+    font-size: 40px;
+    margin-left: 10px;
+
+    }
+
+    .conteiner .text .programa_1 {
+
+        font-size: 20px;
+        margin-left: 10px;
+
+    }
+
+
+    .actividad_1 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: 330px;
+        
+    }
+
+    .conteiner .text .programa_2 {
+
+        position: relative;
+        font-size: 20px;
+        top: 475px;
+        margin-left: 10px;
+
+    }
+
+    .actividad_2 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: 210px;
+        
+    }
+
+    .conteiner .text .programa_3 {
+
+        position: relative;
+        font-size: 20px;
+        top: 950px;
+        margin-left: 10px;
+
+    }
+
+    .actividad_3 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom:  100px;
+        
+    }
+
+    .conteiner .text .programa_4 {
+
+        position: relative;
+        font-size: 20px;
+        top: 1285px;
+        margin-left: 10px;
+
+    }
+
+    .actividad_4 {
+        
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: 10px;
+        
+    }
+
+    .conteiner .text .programa_5 {
+
+        position: relative;
+        font-size: 20px;
+        top: 1640px;
+        margin-left: 10px;
+
+    }
+    .actividad_5 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -120px;
+        
+    }
+
+    .conteiner .text .programa_6 {
+
+        position: relative;
+        font-size: 20px;
+        top: 2010px;
+        margin-left: 10px;
+
+    }
+    .actividad_6 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -250px;
+        
+    }
+
+    .conteiner .text .programa_7 {
+
+        position: relative;
+        font-size: 20px;
+        top: 2350px;
+        margin-left: 10px;
+
+    }
+    .actividad_7 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -350px;
+        
+    }
+
+    .conteiner .text .programa_8 {
+
+        position: relative;
+        font-size: 20px;
+        top: 2840px;
+        margin-left: 10px;
+
+    }
+    .actividad_8 {
+        
+        
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -480px;
+        
+    }
+
+
+    
+
+
+    
+}
+
+
+/* tablets */
+
+@media  (min-width: 738px) and (max-width: 1000px) { 
+
+    .conteiner .text h1 {
+    
+        font-size: 80px;
+        margin-left: 10px;
+    
+   }
+   .conteiner .text .programa_1 {
+
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.actividad_1 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 330px;
+    
+}
+
+.conteiner .text .programa_2 {
+
+    position: relative;
+    font-size: 20px;
+    top: 440px;
+    margin-left: 10px;
+
+}
+
+.actividad_2 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -200px;
+    left: -310px;
+    
+}
+
+.conteiner .text .programa_3 {
+
+    position: relative;
+    font-size: 20px;
+    top: 930px;
+    margin-left: 10px;
+
+}
+
+.actividad_3 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom:  -300px;
+    
+}
+
+.conteiner .text .programa_4 {
+
+    position: relative;
+    font-size: 20px;
+    top: 1285px;
+    margin-left: 10px;
+
+}
+
+.actividad_4 {
+    
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -700px;
+    left: -310px;
+    
+    
+}
+
+.conteiner .text .programa_5 {
+
+    position: relative;
+    font-size: 20px;
+    top: 1640px;
+    margin-left: 10px;
+
+}
+.actividad_5 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -790px;
+    
+}
+
+.conteiner .text .programa_6 {
+
+    position: relative;
+    font-size: 20px;
+    top: 2000px;
+    margin-left: 10px;
+
+}
+.actividad_6 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -1200px;
+    left: -310px;
+    
+}
+
+.conteiner .text .programa_7 {
+
+    position: relative;
+    font-size: 20px;
+    top: 2350px;
+    margin-left: 10px;
+
+}
+.actividad_7 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -1290px;
+    
+}
+
+.conteiner .text .programa_8 {
+
+    position: relative;
+    font-size: 20px;
+    top: 2840px;
+    margin-left: 10px;
+
+}
+.actividad_8 {
+    
+    
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -1730px;
+    left: -310px;
+    
+}
+
+
+             
+
+}
+
+             
+             
+@media (min-width: 1280px)   {
+
+    .conteiner .text h1 {
+
+        font-size: 100px;
+        margin-left: 10px;
+    
+    }
+    
+        .conteiner .text .programa_1 {
+
+            font-size: 20px;
+            margin-left: 10px;
+        
+        }
+        
+        
+        .actividad_1 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            top:-170px;
+            left: 10px;
+            
+        }
+        
+        .conteiner .text .programa_2 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 440px;
+            margin-left: 10px;
+        
+        }
+        
+        .actividad_2 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -345px;
+            left: -310px;
+            
+        }
+        
+        .conteiner .text .programa_3 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 930px;
+            margin-left: 10px;
+        
+        }
+        
+        .actividad_3 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom:  -700px;
+            left: -620px;
+            
+        }
+        
+        .conteiner .text .programa_4 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 1285px;
+            margin-left: 10px;
+        
+        }
+        
+        .actividad_4 {
+            
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -1100px;
+            left: -930px;
+            
+            
+        }
+        
+        .conteiner .text .programa_5 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 1640px;
+            margin-left: 10px;
+        
+        }
+        .actividad_5 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -1450px;
+            left: -1240px;
+            
+        }
+        
+        .conteiner .text .programa_6 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 2000px;
+            margin-left: 10px;
+        
+        }
+        .actividad_6 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -1850px;
+            left: -1560px;
+            
+        }
+        
+        .conteiner .text .programa_7 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 2350px;
+            margin-left: 10px;
+        
+        }
+        .actividad_7 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -2370px;
+            left: -1850px;
+            
+        }
+        
+        .conteiner .text .programa_8 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 2870px;
+            margin-left: 10px;
+        
+        }
+        .actividad_8 {
+            
+            
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -2800px;
+            left: -2170px;
+            
+        }
+        
+        
+    
+          
+
+}

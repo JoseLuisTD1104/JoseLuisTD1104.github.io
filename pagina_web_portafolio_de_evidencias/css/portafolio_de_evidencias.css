@@ -1,0 +1,635 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+@font-face {
+
+    font-family: 'fuente_Principal';
+    src: url(fonts/KGRedHands.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'fuente_secundaria';
+    src: url(fonts/RifficFree-Bold.ttf);
+
+}
+
+nav {
+
+    background:black;
+    height: 80px;
+    width: 100%;
+
+}
+
+.logo {
+
+    height: 78px;
+}
+
+nav ul {
+
+    float: right;
+    margin-right:20px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    border: 0;
+
+}
+
+.box {
+
+    position: relative;
+    top: 50%;
+
+}
+
+input.src {
+
+    padding: 3px 34px;
+    font-family: sans-serif;
+    outline:  none;
+    font-size: 18px;
+    border-radius: 50px;
+    color: blue;
+    border: 3px solid blueviolet;
+    background: white url(/portafolio_de_evidencias/css/Imagenes/busqueda.png) no-repeat 6px center;
+    width: 130px;
+    transition: all .5s;
+
+    
+}
+
+input.src :hover {
+
+    width: 180px;
+    background-color: blue;
+    border-color: blue ;
+    box-shadow: 0 0 5px blue;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 20px;
+    -webkit-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+
+}
+
+nav ul li a {
+
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+
+li a.active, li a:hover {
+
+    background:blue ;
+
+}
+
+.checkbtn {
+
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+
+    display: none;
+
+}
+
+.conteiner_cover {
+
+    background-color: black;
+    display: flex;
+   
+}
+
+.conteiner_cover .text {
+
+    font-family: fuente_Principal;
+    color: white;
+    
+   
+}
+
+.conteiner_cover input {
+    
+    padding: 18px 80px;
+    border: none;
+    font-size: 50px;
+    border-radius:50px;
+    background-color:brown;
+    color: white;
+    
+}
+
+.conteiner_cover .text h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.conteiner .texto h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+.conteiner .texto p {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.folder_icon {
+
+    background: transparent;
+    border-radius:none;
+    border: none;
+    color: black;
+
+}
+
+
+
+
+/* adaptacion moviles */
+
+@media screen and (max-width: 737px) { 
+    
+    .checkbtn {
+
+        display: block;
+
+    }
+
+    ul {
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: blue;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+        
+    }
+
+    nav ul li {
+
+        display: block;
+        margin: 50px 150px;
+        line-height: 80px;
+
+    }
+
+    nav ul li a {
+
+        font-size: 20px;
+
+    }
+
+   
+    #check:checked ~ul {
+
+        left:0;
+
+    }   
+
+
+    input.src {
+    
+    display: none;
+    
+    }
+
+    .git{
+
+        width: 50%;
+       
+    }
+
+    
+  .conteiner_cover .text {
+    
+    font-size: 6px;
+    margin-top: 38px;
+ 
+  }
+
+  .conteiner_cover input {
+    
+    padding: 2px 6px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 18px;
+    
+  }
+
+  .conteiner_cover .text h2 { 
+
+    margin-top: 15px;
+    margin-left: 48px;
+
+  }
+
+  .conteiner .texto h1{
+
+    margin-top: 220px;  
+  }
+
+  .conteiner .texto p {
+
+    margin-top: 20px;
+    text-align: justify;
+
+  }
+
+ .Tarea2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px; 
+    margin-left: 10px;
+
+  }
+
+  .folder_icon_1 {
+
+    font-size: 90px;
+    margin-top: 12px;
+    margin-left: 20px ;
+
+  }
+
+  .Tarea3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px; 
+    margin-left: 140px;
+
+  }
+
+  .folder_icon_2 {
+
+    font-size: 90px;
+    margin-top: 12px;
+    margin-left: 20px ;
+
+  }
+
+  
+  
+  
+
+
+}
+
+
+/* adaptacion tablets */ 
+
+@media  (min-width: 738px) and (max-width: 1000px) { 
+
+    .logo {
+
+        height: 60px;
+    }
+
+    .conteiner_cover {
+
+        display: block;
+    
+    }
+
+    nav ul li {
+
+        display: block;
+        margin: 18px 0;
+        line-height: 30px;
+
+    }
+
+    .git{
+
+        width: 50%;
+        margin-top: 15;
+    }
+
+
+    .conteiner_cover .text {
+    
+        font-size: 12px;
+        position: relative;
+        margin-left: 50%;
+        bottom: 320px;
+
+    }
+    
+    .conteiner_cover input {
+        
+        padding: 15px 20px;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-left: 30px;
+        
+    }
+    
+    .conteiner_cover .text h2 { 
+    
+        margin-top: 50px;
+        margin-left: 97px;
+    
+    }
+
+    .conteiner .texto h1{
+
+      position: relative;
+      top: 720px;
+      margin-left: 10px;
+
+    }
+    
+    .conteiner .texto p {
+
+        position: relative;
+        top: 740px;
+        text-align: justify;
+    
+    }
+
+    .Tarea2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 770px; 
+        margin-left: 20px;
+    
+    }
+    
+    .folder_icon_1 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
+
+    .Tarea3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -30px; 
+        margin-left: 140px;
+    
+      }
+    
+    .folder_icon_2 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
+        
+}
+
+/* adaptación de pantallas de laptop */
+
+@media (min-width: 1000px) and (max-width: 1279px)   { 
+
+    header {
+
+        width: 110%;
+    }
+
+    .git{
+
+        width: 50%;
+        margin-top: 15;
+    } 
+
+    .conteiner_cover {
+
+        width: 100%;
+    }
+
+
+    .conteiner_cover .text {
+    
+        font-size: 20px;
+        position: relative;
+        top: 160px;
+
+    }
+
+    .conteiner_cover input { 
+
+        padding: 10px 32px;
+        font-size: 90px;
+        margin-top: 50px;
+        margin-left: 40px;
+        
+
+    }
+
+    .conteiner_cover .text h2 { 
+    
+        margin-top: 50px;
+        margin-left: 165px;
+    
+    }
+
+    .conteiner .texto h1{
+
+        position: relative;
+        top: 560px;
+        margin-left: 10px;
+  
+      }
+      
+    .conteiner .texto p {
+  
+          position: relative;
+          top: 580px;
+          text-align: justify;
+      
+    }
+      
+      .Tarea2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 620px; 
+        margin-left: 20px;
+    
+    }
+    
+    .folder_icon_1 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
+
+    .Tarea3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -30px; 
+        margin-left: 140px;
+    
+      }
+    
+    .folder_icon_2 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
+   
+}
+
+
+@media (min-width: 1280px)   {
+    
+    header {
+
+        width: 100%;
+    }
+    .conteiner_cover {
+
+        justify-content: center;
+        width: 100%;
+      
+        
+
+    }
+
+    .conteiner_cover .text {
+    
+        font-size:  50px;
+        position: relative;
+        top: 300px;
+
+    }
+
+    .conteiner_cover input { 
+
+        padding: 10px 32px;
+        font-size: 90px;
+        margin-top: 50px;
+        
+    }
+
+    
+    .conteiner_cover .text h2 { 
+    
+        margin-top: 20px;
+        
+    
+    }
+
+
+    .conteiner .texto h1{
+
+        position: relative;
+        top: 1200px;
+        font-size: 100px;
+      
+    }
+      
+    .conteiner .texto p {
+  
+          position: relative;
+          top: 1300px;
+          font-size: 100px;
+          text-align: justify;
+      
+    }
+
+    .Tarea2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1375px; 
+        margin-left: 20px;
+        font-size: 100px;
+    
+    }
+    
+    .folder_icon_1 {
+    
+        font-size: 350px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
+
+    .Tarea3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -120px; 
+        margin-left: 450px;
+        font-size: 100px;
+    
+    }
+    
+    .folder_icon_2 {
+    
+        font-size: 350px;
+        margin-top: 12px;
+        margin-left: 85px ;
+    
+    }
+
+
+
+}
+
+@media (max-width: 300px) {  
+
+    .logo {
+        
+        height: 62px;
+        
+    }
+    
+    
+
+}
+
+
+
+
+
