@@ -217,7 +217,7 @@ li a.active, li a:hover {
         width: 300px;
         margin-left: 10px;
         position: relative;
-        bottom: -70px;
+        bottom: 70px;
         
     }
 
@@ -236,7 +236,45 @@ li a.active, li a:hover {
         width: 300px;
         margin-left: 10px;
         position: relative;
-        bottom: -180px;
+        bottom: -55px;
+    } 
+
+    .conteiner .text .programa_3 {
+
+        position: relative;
+        font-size: 20px;
+        top: 290px;
+        margin-left: 10px;
+
+    }
+
+
+    .actividad_3 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -155px;
+        
+    }
+
+    .conteiner .text .programa_4 {
+
+        position: relative;
+        font-size: 20px;
+        top: 390px;
+        margin-left: 10px;
+
+    }
+
+    .actividad_4 {
+        
+      
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        bottom: -290px;
     } 
 }
 
@@ -265,7 +303,7 @@ li a.active, li a:hover {
     width: 300px;
     margin-left: 10px;
     position: relative;
-    bottom: -90px;
+    bottom: -15px;
     
   }
 
@@ -273,7 +311,7 @@ li a.active, li a:hover {
 
     position: relative;
     font-size: 20px;
-    top: 190px;
+    top: 200px;
     margin-left: 10px;
 
  }
@@ -284,10 +322,52 @@ li a.active, li a:hover {
     width: 300px;
     margin-left: 10px;
     position: relative;
-    bottom: -220px;
+    bottom: -150px;
     left: -310px;
     
  }
+
+ .conteiner .text .programa_3 {
+
+    position: relative;
+    font-size: 20px;
+    top: 300px;
+    margin-left: 10px;
+
+ }
+
+ .actividad_3 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -170px;  
+ }
+
+
+ 
+ .conteiner .text .programa_4 {
+
+    position: relative;
+    font-size: 20px;
+    top: 390px;
+    margin-left: 10px;
+
+ }
+
+ .actividad_4 {
+    
+  
+    width: 300px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -360px;
+    left: -310px;
+    
+ }
+
+
 
 }
 
@@ -316,7 +396,7 @@ li a.active, li a:hover {
             width: 300px;
             margin-left: 10px;
             position: relative;
-            top: 90px;
+            top: 5px;
             left: 10px;
             
         }
@@ -325,7 +405,7 @@ li a.active, li a:hover {
         
             position: relative;
             font-size: 20px;
-            top: 200px;
+            top: 190px;
             margin-left: 10px;
         
         }
@@ -336,8 +416,48 @@ li a.active, li a:hover {
             width: 300px;
             margin-left: 10px;
             position: relative;
-            bottom: -245px;
+            bottom: -125px;
             left: -310px;
+            
+        }
+
+        .conteiner .text .programa_3 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 290px;
+            margin-left: 10px;
+        
+        }
+        
+        .actividad_3 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -250px;
+            left: -620px;
+            
+        }
+
+        .conteiner .text .programa_4 {
+        
+            position: relative;
+            font-size: 20px;
+            top: 380px;
+            margin-left: 10px;
+        
+        }
+        
+        .actividad_4 {
+            
+          
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+            bottom: -410px;
+            left: -935px;
             
         }
 }
