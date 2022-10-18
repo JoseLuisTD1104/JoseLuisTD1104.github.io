@@ -1,3 +1,12 @@
+/*  
+
+Beatles.java
+ Author: JoseLuis1104
+ Date: oct 10,2022
+ Location:  Mexico
+ 
+ */
+
 public class Beatles {
     
     public static void main(String[] args) {

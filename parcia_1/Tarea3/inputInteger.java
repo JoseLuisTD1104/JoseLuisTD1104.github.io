@@ -2,7 +2,7 @@
 
  inputInteger.java
  Author: JoseLuis1104
- Date: oct 10,2022
+ Date: oct 14,2022
  Location:  Mexico
 
  */

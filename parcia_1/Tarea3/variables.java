@@ -1,4 +1,12 @@
 
+/* 
+ 
+ variables.java
+ Author: JoseLuis1104
+ Date: oct 04,2022
+ Location:  Mexico
+
+ */
 class variables {
     public static void main(String[] args) {
           
