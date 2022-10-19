@@ -29,7 +29,7 @@ public class inputFloatString {
         System.out.println("text entered: "+myString);
 
         //  Getting Float input
-        System.out.println("Enter double : ");
+        System.out.println("Enter float : ");
         myFloat = sc.nextFloat();
         System.out.println("text entered: "+ myFloat);
  
