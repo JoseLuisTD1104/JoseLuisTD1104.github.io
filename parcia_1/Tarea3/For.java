@@ -1,6 +1,6 @@
 /*
  
-  ifElseif.java
+  For.java
   Author: JoseLuis1104
   Date: oct 18,2022
   Location:  Mexico 

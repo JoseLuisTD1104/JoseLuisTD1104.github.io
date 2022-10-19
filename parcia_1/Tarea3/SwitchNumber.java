@@ -11,7 +11,7 @@ public class SwitchNumber {
     
     public static void main(String[] args) {
     
-      int number = 25;
+      int number = 29;
       String size;
 
       // switch statement to check size
