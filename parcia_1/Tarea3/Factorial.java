@@ -5,9 +5,7 @@
   Date: oct 19,2022
   Location:  Mexico 
 
- */
-
-
+*/
 
 public class Factorial {
 
