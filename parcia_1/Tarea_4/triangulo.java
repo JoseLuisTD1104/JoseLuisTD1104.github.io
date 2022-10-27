@@ -1,6 +1,6 @@
 /*
 
- fiboN.java
+ triangulo.java
  Theme: fibonacci 
  Author: JoseLuis1104
  Date: oct 26,2022

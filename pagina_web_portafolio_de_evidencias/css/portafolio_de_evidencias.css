@@ -292,7 +292,7 @@ li a.active, li a:hover {
 
     font-size: 90px;
     margin-top: 12px;
-    margin-left: 20px ;
+    margin-left: 10px ;
 
   }
 
@@ -300,7 +300,7 @@ li a.active, li a:hover {
 
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -32px; 
-    margin-left: 140px;
+    margin-left: 130px;
 
   }
 
@@ -308,13 +308,25 @@ li a.active, li a:hover {
 
     font-size: 90px;
     margin-top: 12px;
-    margin-left: 20px ;
+    margin-left: 18px ;
 
   }
 
-  
-  
-  
+  .Tarea4 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -32px; 
+    margin-left: 245px;
+
+  }
+
+  .folder_icon_3 {
+
+    font-size: 90px;
+    margin-top: 12px;
+    margin-left: 25px ;
+
+  }
 
 
 }
@@ -422,6 +434,22 @@ li a.active, li a:hover {
         margin-left: 20px ;
     
     }
+
+    .Tarea4 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -30px; 
+        margin-left: 260px;
+    
+      }
+    
+    .folder_icon_3 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
         
 }
 
@@ -518,6 +546,22 @@ li a.active, li a:hover {
         margin-left: 20px ;
     
     }
+
+    .Tarea4 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -30px; 
+        margin-left: 255px;
+    
+      }
+    
+    .folder_icon_3 {
+    
+        font-size: 90px;
+        margin-top: 12px;
+        margin-left: 20px ;
+    
+    }
    
 }
 
@@ -606,6 +650,23 @@ li a.active, li a:hover {
     }
     
     .folder_icon_2 {
+    
+        font-size: 350px;
+        margin-top: 12px;
+        margin-left: 85px ;
+    
+    }
+
+    .Tarea4 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -120px; 
+        margin-left: 900px;
+        font-size: 100px;
+    
+    }
+    
+    .folder_icon_3 {
     
         font-size: 350px;
         margin-top: 12px;
