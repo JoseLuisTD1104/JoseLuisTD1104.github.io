@@ -17,7 +17,13 @@
 
 public class cubica {
 
+    //  class
+
      public static void cubo() {
+
+        // function that prints the square in a table with numbers from -10 to 10
+
+        // cycle, decisions and operations for printing data
         
         double [] array = new double [20];
         int rango_numeral=-10,indice_tabla=-10;
@@ -46,7 +52,11 @@ public class cubica {
 
     public static void main(String[] args) {
         
+        // run | Debug
+
        cubo();
+
+       // invocation of cubo function
 
     }
     

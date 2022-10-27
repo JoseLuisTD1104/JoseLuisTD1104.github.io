@@ -14,17 +14,27 @@
 
 */
 
-
 import javax.swing.JOptionPane;
+// import JOption Pane.
 
 public class promedio {
 
+    // class
+
     public static void prome(int iteracion) {
+
+        // function that averages the values ​​added by the user
 
         double [] array = new double [iteracion];
         double entrada;
+
+        // creation of variables and array
         
         System.out.print("El promedio: ");
+
+        // average impression
+
+         // cycle, decisions and operations for printing data
 
         for (int i = 0; i<array.length; i++) {
 
@@ -39,8 +49,7 @@ public class promedio {
 
                 System.out.print(array[i]+ " = ");
 
-            }
-            
+            } 
         
         }
          
@@ -53,13 +62,17 @@ public class promedio {
         }
 
         System.out.print(entrada/array.length+ ".");
-
+ 
     }
     
     public static void main(String[] args) {
+
+        // run | Debug
     
         int iteracion = Integer.parseInt(JOptionPane.showInputDialog(null, "¿Cuál es la cantidad  de numeros que va a promediar?"));
         prome(iteracion);
+
+        // invocation of prome function
 
     }
 

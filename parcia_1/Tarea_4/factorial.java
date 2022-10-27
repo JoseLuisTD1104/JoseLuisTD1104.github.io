@@ -17,23 +17,29 @@
 
 */
 
-
 import javax.swing.JOptionPane;
 
+// import JOptionPane 
 
 public class factorial {
+
+    // class
     
     static int resultado = 1;
 
-    /**
-     * @param entrada
-     */
     public static void facto(int entrada) {
+
+        // function to print the factorial of a number
         
         int [] Almacenaje_multiplicacion = new int [entrada];
-        
 
+        // declaration of array 
+        
         System.out.println("La factorizacion del numero "+entrada+" : ");
+
+        // print of data
+
+        // cycle, decisions and operations for printing data
 
         for (int i=0; i<Almacenaje_multiplicacion.length; i++) {
 
@@ -61,16 +67,20 @@ public class factorial {
 
         System.out.print(" "+resultado +".");
         
-
+         
     }
 
     public static void main(String[] args) {
         
         int entrada = Integer.parseInt(JOptionPane.showInputDialog(null, "¿Cuál es el numero que deseas factorizar?"));
         
+        // decisions and operations to invoke data and print it
+
         if (entrada<=20) {
 
             facto(entrada);
+
+            // Invocation of facto function
 
         }else if (entrada>20) {
 
